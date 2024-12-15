@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden ;
+  
+  }
+  .container_1{
+      height: 100vh;
+      width: 100vw;
+      background-image: url(mert-toker-AUC0bev5F1M-unsplash.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .overlay {
+    height: 100vh;
+    width:100vw;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    background-color: rgba(2, 14, 48, 0.8);
+  }
+  
+  .registration_form{
+    height: 65vh;
+    width: 30vw;
+    border-radius: 30px;
+    background-color: azure;
+  }
+
+  .registration_form .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px black dotted;
+    gap: 10px;
+  }
+  .registration_form .heading > h2{
+   padding: 10px 0;
+   font-weight: 800;
+  }
+  .registration_form .heading > i{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+  form{
+    height: 100%;
+    width: 100%;
+  }
+  .input{
+    height: 50%;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .input > input{
+    border: none;
+    background-color: rgba(161, 166, 172, 0.438);
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 35px;
+  }
+  
+  .checkbox{
+    margin-top: 2%;
+    line-height: 15px;
+    padding: 10px 13px;
+    font-size: 16px;
+  }
+  .checkbox2{
+    margin-top: 1%;
+  }
+  form > input[type="submit"]{
+            margin-top: 5%;
+            padding: 5px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: rgba(161, 166, 172, 0.438);
+          &:hover{
+            color: white;
+            background-color: black;
+          }
+          }

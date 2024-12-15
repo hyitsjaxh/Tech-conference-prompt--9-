@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x:hidden ;
+
+}
+.container_1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(mert-toker-AUC0bev5F1M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+  height: 100vh;
+  width:100vw;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(2, 14, 48, 0.8);
+}
+nav {
+  height: 10%;
+  width: 80%;
+  padding: 0 20px;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 1%;
+  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+}
+.navigationlinks{
+    display: flex;
+    gap: 20px;
+}
+.navigationlinks > a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+&:hover{
+    color: #249cff;
+}
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo .img{
+    height: 30px;
+    width: 30px;
+    background-image: url(clover.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 84%;
+    width: 100%;
+    display: flex; 
+}
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 10px 50px;
+}
+.left .content_left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    gap: 20px;     
+    font-size: 20px;
+    
+    align-items: center; 
+    color: white;   
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 35px;
+}
+.left > h3,h5,p{
+    text-align: center;
+}
+.content_left > h3{
+    align-self: center;
+    font-size: 30px;
+}
+.btn{
+    display:flex ;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+}
+ button{
+    padding: 15px 40px;
+    border: none;border-radius: 10px;
+    &:hover{
+        background-color: #249cff;
+        cursor: pointer;    
+    }
+}
+button > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.register #btn1{
+    background-color: #249cff;
+    &:hover{
+        background-color: white;
+        color: #249cff;
+        cursor: pointer;
+    }
+}
+
+
+.right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    height: 50%;
+    width: 75%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px -4px 30px 12px rgba(36,156,255,0.79);
+-webkit-box-shadow: 3px -4px 30px 12px rgba(36,156,255,0.79);
+-moz-box-shadow: 3px -4px 30px 12px rgba(36,156,255,0.79);
+
+}
+.footer{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.container_2{
+    height: 50vh;
+  width: 100vw;
+  overflow: hidden;
+    background-color: #071121;
+}
+.top{
+    height: 25vh;
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.top .box_top1,.box_top2,.box_top3,.box_top4{
+    height: 100px;
+    width: 190px;
+    &:hover{
+        width: 210px;
+    }
+}
+.box_top1{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/netflix-logo-4532f39a77bca4898860bbc6157596b5f6fd9bb711735e2a3c439d5cf0298519.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_top2{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/adobe-logo-6f5798693edad1a153e7fe15245f8f5e9342ff1c0913265f932fb98dc38513aa.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_top3{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/mercedes-benz-logo-3fc79f5f4085df670ec5a95afa403e77c938765313199d4110306e8f13bc67ac.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_top4{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/cisco-logo-52017860c162b3bb5ef9fb768c62ce9f61ac4ac31a8f8fa51861a4c564a1f4fa.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.bottom{
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom .box_bottom1,.box_bottom2,.box_bottom3,.box_bottom4{
+    height: 100px;
+    width: 200px;
+    &:hover{
+        width: 210px;
+    }
+}
+.box_bottom1{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/okta-logo-78c9e6a19b28a745447f6bb2620650b570e5ec700e9e70fe1a14f1471c46eddb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_bottom2{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/booking-com-logo-799dcc27afdc860968d90fa08cd1df34d6130ab62fa2c7fdf09d293a9da09ff7.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_bottom3{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/accenture-logo-4cafa1c82834b0d9af523e226b0320a83e2e8ac02d45ff9e82073bc64bdfb28c.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.box_bottom4{
+    background-image: url(https://www.civo.com/assets/public/navigate/north-america/2025/speakers/companies/vonyage-by-ericsson-1dc925b3e614610512c34c2a07fb92eed236780b17f7976f66dd2b873206256d.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+
+
